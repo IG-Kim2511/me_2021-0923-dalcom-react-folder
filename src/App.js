@@ -56,6 +56,11 @@ function App() {
       setPage3("world-right page3 change");
     }
 
+    function cancelHandler() {      
+    window.location.reload();
+    
+      
+    }
 
 
   {/*   
@@ -295,8 +300,8 @@ function App() {
                     the PIN Pad
                 </div>
         
-                <div className="btn-container">    
-                    <button href="#" className="myButton grid-a cancel">
+                <div className="btn-container">     {/* onClick={cancelHandler} */}
+                    <button href="#" className="myButton grid-a cancel"  onClick={cancelHandler} >
                         <p className="img_container">
                             <img src={cancel_third} alt=""/>
                         </p>
