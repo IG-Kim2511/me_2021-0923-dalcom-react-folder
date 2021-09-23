@@ -1,5 +1,5 @@
 
-import React ,{useState} from 'react'
+import React ,{useState,useEffect} from 'react'
 import ReactDOM from 'react-dom';
 
 import './css/style.css';
@@ -27,23 +27,65 @@ import './App.css';
 function App() {
 
 
+
+
   // 🍀const
-  const finishElem = document.querySelector('.finish');
+/*   const finishElem = document.querySelector('.finish');
   const creditElem = document.querySelector('.credit');
   const cancelElem = document.querySelector('.cancel');
-  const returnElem = document.querySelector('.return');
-
+  const returnElem = document.querySelector('.return'); */
+  
   const page1Elem = document.querySelector('.page1');
   const page2Elem = document.querySelector('.page2');
   const page3Elem = document.querySelector('.page3');
-
-  const notificationElem = document.querySelector('.notification');
-
   
+  const notificationElem = document.querySelector('.notification');
+  
+  // 🍀useStae
+  const [page2, setPage2] = useState("world-right page2");
+  
+  // 🍀function
+
     {/*⚽js 10 */}
-  function page2Handler() {
-    page2Elem.classList.add('change');    
-  }
+    function page2Handler() {         
+      setPage2("world-right page2 change");
+    }
+
+  {/*   
+    myButton grid-e finish
+    myButton grid-e finish change   
+  */}
+    
+    // function page3Handler() {
+    //   page3Elem.classList.add('change');    
+    // }
+    
+
+    {/* 
+  
+    creditElem.addEventListener('click',()=>{
+    page3Elem.classList.add('change');
+  });
+
+  returnElem.addEventListener('click',()=>{
+      page2Elem.classList.remove('change');
+      
+  });
+
+  cancelElem.addEventListener('click',()=>{
+    
+      page3Elem.classList.remove('change');
+  });
+
+
+  window.addEventListener('load',()=>{
+      setTimeout(() => {
+          notificationElem.style.display = "none";
+      }, 5000);
+  });
+
+
+  */}
 
 
   return (
@@ -166,7 +208,7 @@ function App() {
         </div>
     </section>
     
-    <section className="world-right page2">
+    <section className={page2}>
 
         <div className="right-con">
             <div className="title">
