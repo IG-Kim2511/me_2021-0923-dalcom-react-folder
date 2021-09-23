@@ -33,7 +33,7 @@ function App() {
             <div className="left-parent_lay">        
                 <div className="left-second-container">
                     <div className="abc ">                        
-                        <!-- <img src="./img/world-left.jpg" alt="" className="abc"> -->
+                       
                         <div>
                             <img src="./img/abc.png" alt="">
 
@@ -47,29 +47,9 @@ function App() {
                                <P>TRANS 9999</P>
                                <P>STR#0001</P>
                            </div>
+                   
 
-                           <!--  🍉flex
-                           <div className="items">
-                               <span className="item">
-                                    <span>44237</span>
-                                    <span>Tito's Handmade...</span>
-                                    <span>1.75L</span>
-                                </span>                            
-                                <span className="item">$48.70</span>  
-                           </div>
-                                          
-                            <div className="check">
-                                <h4 className="item">
-                                    <span className="tax">Tax:</span>
-                                    <span className="tax_num">$3.14</span></h4>
-                                <h4 className="item"> 
-                                    <span>Total:</span>
-                                    <span>$51.84</span>
-                                </h4>                              
-                            </div>
-                            -->
-
-                            <!-- 🍉table -->
+                          
                             <table className="check-wrap">                              
                                 <tbody className="check">
                                     <tr className="items">
@@ -110,8 +90,6 @@ function App() {
 
         <section className="world-middle"></section>
 
-
-<!-- page1 -->
 
 <section className="world-right page1">
 
@@ -161,8 +139,6 @@ function App() {
         </div>
     </div>
 </section>
-
-<!-- page2 -->
  
 <section className="world-right page2">
 
@@ -229,9 +205,6 @@ function App() {
     </div>
 </section> 
 
-
-
-<!-- page3 -->
 
 
 <section className="world-right page3">
