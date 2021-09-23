@@ -1,5 +1,6 @@
 
 import React ,{useState} from 'react'
+import ReactDOM from 'react-dom';
 
 import './css/style.css';
 
@@ -24,26 +25,29 @@ import Request_third from './img/page-third/page-third(3).png';
 import './App.css';
 
 function App() {
-  return (
-    <div>
-        
-        {/*    
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                  Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                  className="App-link"
-                  href="https://reactjs.org"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Learn React
-                </a>
-              </header> */}
 
-              
+
+  // 🍀const
+  const finishElem = document.querySelector('.finish');
+  const creditElem = document.querySelector('.credit');
+  const cancelElem = document.querySelector('.cancel');
+  const returnElem = document.querySelector('.return');
+
+  const page1Elem = document.querySelector('.page1');
+  const page2Elem = document.querySelector('.page2');
+  const page3Elem = document.querySelector('.page3');
+
+  const notificationElem = document.querySelector('.notification');
+
+  
+    {/*⚽js 10 */}
+  function page2Handler() {
+    page2Elem.classList.add('change');    
+  }
+
+
+  return (
+    <div> 
         <div className="world">       
             
             <section className="world-left">       
@@ -154,7 +158,8 @@ function App() {
                     <img src={Remove} alt=""/>
                 </button>
 
-                <button href="#" className="myButton grid-e finish">
+              {/*⚽js 10 */}
+                <button href="#" className="myButton grid-e finish" onClick={page2Handler}>
                     Finish and Pay
                 </button>
             </div>
