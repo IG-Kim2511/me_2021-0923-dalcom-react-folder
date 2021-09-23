@@ -117,21 +117,21 @@ function App() {
                     Cancel
                     <br></br>Transaction
                 </div>
-                <div. className="img_container">
-                    <img src="img/page-first/page-first(2).png" alt="">
-             </div.
+                <div className="img_container">
+                    <img src="img/page-first/page-first(2).png" alt=""></img>
+              </div>
             </button>
 
             <button href="#" className="myButton grid-c">
                 Key in
-                <br>Code
-                <img src="img/page-first/page-first(3).png" alt="">
+                <br></br>Code
+                <img src="img/page-first/page-first(3).png" alt=""></img>
             </button>
 
             <button href="#" className="myButton grid-d">
                 Remove
-                <br>Item
-                <img src="img/page-first/page-first(4).png" alt="">
+                <br></br>Item
+                <img src="img/page-first/page-first(4).png" alt=""></img>
             </button>
 
             <button href="#" className="myButton grid-e finish">
@@ -145,9 +145,9 @@ function App() {
 
     <div className="right-con">
         <div className="title">
-            <h1>Make Your <br>
+            <h1>Make Your <br></br>
                  Selection Now</h1>
-            <img src="./img/page-second/page-second(1).png" alt="">
+            <img src="./img/page-second/page-second(1).png" alt=""></img>
         </div>
 
 
@@ -155,7 +155,7 @@ function App() {
 
             <button href="#" className="myButton grid-a ">
                 <p className="img_container">
-                    <img src="img/page-second/page-second(2).png" alt="">
+                    <img src="img/page-second/page-second(2).png" alt=""></img>
                 </p>
                 <div>
                     Cash
@@ -164,16 +164,16 @@ function App() {
 
             <button href="#" className="myButton grid-b credit">
                 <p className="img_container">
-                    <img src="img/page-second/page-second(3).png" alt="">
+                    <img src="img/page-second/page-second(3).png" alt=""></img>
                 </p>
                 Credit
             </button>
 
             <button href="#" className="myButton grid-c">
                 <div>
-                    Debit / Credit <br>
-                    Gift Cards <br>
-                    EBT - where <br>
+                    Debit / Credit <br></br>
+                    Gift Cards <br></br>
+                    EBT - where <br></br>
                     available                
                 </div>
             </button>
@@ -183,23 +183,23 @@ function App() {
             </button>
 
             <button href="#" className="myButton grid-e return">
-                RETURN <br>
+                RETURN <br></br>
                 <div className="scan">
                     <p className="img_container">
-                      <img src="img/page-second/page-second(4).png" alt="">
+                      <img src="img/page-second/page-second(4).png" alt=""></img>
                     </p>
                     <p>
-                        Scan More <br>
+                        Scan More <br></br>
                         Items
                     </p>
                 </div>
             </button>
 
             <button href="#" className="myButton grid-f">
-                Request <br>
+                Request <br></br>
                 Help
                 <p className="img_container">
-                   <img src="img/page-second/page-second(5).png" alt="">
+                   <img src="img/page-second/page-second(5).png" alt=""></img>
                </p>
             </button>
         </div>
@@ -213,27 +213,27 @@ function App() {
     <div className="right-con">
        
             <div className="title">                
-                <img src="./img/page-third/phone.png" alt="">
+                <img src="./img/page-third/phone.png" alt=""></img>
             </div>
     
             <div className="explain">
-                Follow Instructions on<br>
+                Follow Instructions on<br></br>
                 the PIN Pad
             </div>
     
             <div className="btn-container">    
                 <button href="#" className="myButton grid-a cancel">
                     <p className="img_container">
-                        <img src="./img/page-third/page-third(2).png" alt="">
+                        <img src="./img/page-third/page-third(2).png" alt=""></img>
                     </p>
                     Cancel
                 </button>
 
                 <button href="#" className="myButton grid-b ">
                     <p className="img_container">
-                        <img src="./img/page-third/page-third(3).png" alt="">
+                        <img src="./img/page-third/page-third(3).png" alt=""></img>
                     </p>
-                    Request <br>
+                    Request <br></br>
                     Help
                 </button>
             </div>
