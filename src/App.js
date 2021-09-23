@@ -1,6 +1,8 @@
 
 import React ,{useState} from 'react'
 
+import './css/style.css';
+
 import abc from './img/abc.png';
 import disabled from './img/page-0.png';
 import bag from './img/page-first/page-first(6).png';
