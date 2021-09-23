@@ -35,7 +35,8 @@ function App() {
                     <div className="abc ">                        
                        
                         <div>
-                            <img src="./img/abc.png" alt="">
+                            <img src="./img/abc.png" alt=""></img>
+                            
 
                             <p>8-D Oak Branch Drive</p>
                            <p>Greensboro, NC 27407</p>
@@ -81,7 +82,7 @@ function App() {
                     </div>
                     
                     <div className="disabled">                    
-                        <img src="./img/page-0.png" alt="" className="disabled-img">                   
+                        <img src="./img/page-0.png" alt="" className="disabled-img">   </img>                
                     </div>
                  </div>
             </div>
@@ -97,7 +98,7 @@ function App() {
 
         <div className="bags">            
                 <h3 className="bags-title1"> Do Not Remove Bags    </h3>
-                <img src="./img/page-first/page-first(6).png" alt="">
+                <img src="./img/page-first/page-first(6).png" alt=""></img>
                 <h4 className="bags-title2">Place Item in Bag</h4>          
         </div>
 
@@ -105,16 +106,16 @@ function App() {
 
             <button href="#" className="myButton grid-a ">
                 <div className="img_container">
-                    <img src="img/page-first/page-first(1).png" alt="">
+                    <img src="img/page-first/page-first(1).png" alt=""></img>
                 </div>
                     Request
-                    <br>Help
+                    <br></br>Help
             </button>
 
             <button href="#" className="myButton grid-b">
                 <div>
                     Cancel
-                    <br>Transaction
+                    <br></br>Transaction
                 </div>
                 <div. className="img_container">
                     <img src="img/page-first/page-first(2).png" alt="">
