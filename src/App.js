@@ -43,6 +43,7 @@ function App() {
   
   // 🍀useStae
   const [page2, setPage2] = useState("world-right page2");
+  const [page3, setPage3] = useState("world-right page3");
   
   // 🍀function
 
@@ -50,6 +51,12 @@ function App() {
     function page2Handler() {         
       setPage2("world-right page2 change");
     }
+
+    function page3Handler() {         
+      setPage3("world-right page3 change");
+    }
+
+
 
   {/*   
     myButton grid-e finish
@@ -229,7 +236,7 @@ function App() {
                     </div>
                 </button>
 
-                <button href="#" className="myButton grid-b credit">
+                <button href="#" className="myButton grid-b credit"  onClick={page3Handler}>
                     <p className="img_container">
                         <img src={credit} alt=""/>
                     </p>
@@ -275,7 +282,7 @@ function App() {
 
 
 
-    <section className="world-right page3">
+    <section className={page3}>
 
         <div className="right-con">
           
